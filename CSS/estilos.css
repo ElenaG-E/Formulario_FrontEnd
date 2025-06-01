@@ -1,0 +1,75 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2.text-center {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+/* Campo personalizado */
+.custom-input {
+    width: 100%; /* Ocupa el 100% del contenedor */
+    max-width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    height: 42px; /* Aumenta la altura */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus para mejorar UX */
+.custom-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Botones */
+.btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#boton_Cancelar {
+    background-color: #6c757d;
+    color: white;
+}
+
+#boton_Guardar {
+    background-color: #28a745;
+    color: white;
+}
+
+#boton_Cancelar:hover {
+    background-color: #5a6268;
+}
+
+#boton_Guardar:hover {
+    background-color: #218838;
+}
