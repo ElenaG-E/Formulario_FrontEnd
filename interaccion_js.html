@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
-    <script src="./scripts/inter_js.js" async></script>
+    <script src="./SCRIPTS/inter_js.js" async></script>
 </head>
 
 <body id="el_body">
@@ -69,6 +69,9 @@
             <div class="col-md-4">
                 <label for="fecha_inicio" class="form-label">Fecha de Nacimiento</label>
                 <input type="date" class="form-control" id="fecha_inicio">
+                <div class="invalid-feedback">
+                 Ingrese una fecha válida.
+                </div>
             </div>
         </div>
 
@@ -80,7 +83,7 @@
                 <div id="ayudaInputContrasena" class="invalid-feedback">
                     La contraseña debe tener:
                     <ul>
-                        <li>8 - 16 caracteres.</li>
+                        <li>6 - 12 caracteres.</li>
                         <li>Al menos un dígito.</li>
                         <li>Al menos una minúscula.</li>
                         <li>Al menos una mayúscula.</li>
@@ -128,7 +131,7 @@
         // alert("Cargando script al final del body...")
     </script>
 
-    <script src="./scripts/intereaccion_js.js"></script>
+    <script src="./SCRIPTS/interaccion_js.js"></script>
 </body>
 
 </html>
